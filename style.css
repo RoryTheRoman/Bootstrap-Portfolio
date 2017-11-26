@@ -24,8 +24,8 @@ body {
 	border-style:solid;
 	border-width:2px;
 	border-color:#dddddd;
-	/*margin-top:30px;
-	margin-bottom:300px;*/
+	/*margin-top:30px;*/
+	margin-bottom:300px;
 	float:left;
 	padding-bottom:20px;
 
@@ -116,7 +116,7 @@ h5 {
 
 .navbar-brand {
 	background-color:#63a8a4;
-	color:#ffffff;
+	color:#ffffff !important;
 	font-size:28px;
 	width:100%;
 	max-width:260px;
@@ -126,9 +126,228 @@ h5 {
 	margin-left:200px;
 	margin-right:120px;
 	text-align:center;
-	vertical-align:center;
 	padding-top:28px;
 	font-weight:bold;
-	font-color:#ffffff;
+	
 }
+
+.navbar {
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:#cccccc;
+}
+
+.contactMe {
+	/*clear:both;*/
+	/*max-width:100%;*/
+	/*width:650px;
+	margin-left:200px;*/
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:2px;
+	border-color:#dddddd;
+	/*margin-top:30px;*/
+	margin-bottom:300px;
+	padding-bottom:30px;
+	/*float:left;*/
+
+}
+
+
+#contactForm {
+	color:#63a8a4;
+	max-width:100%;
+	margin-left:28px;
+	margin-right:28px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:#f1f1f1;
+	font-size:28px;
+	font-weight:bold;
+	}
+
+
+.input-group {
+	padding:20px;
+	width:100%;
+}
+
+.form-control {
+
+}
+
+button {
+	color:#ffffff !important;
+	background-color:#63a8a4!important;
+	margin-left:28px;
+
+}
+input {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.portMaster {
+	clear:both;
+	max-width:100%;
+	/*width:650px;
+	margin-left:200px;*/
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:2px;
+	border-color:#dddddd;
+	/*margin-top:30px;*/
+	margin-bottom:300px;
+	float:left;
+
+}
+
+#portBox {
+	color:#63a8a4;
+	max-width:100%;
+	margin-left:28px;
+	margin-right:28px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:#f1f1f1;
+	font-size:28px;
+	font-weight:bold;
+
+}
+
+#port1 {
+	width:275px;
+	float:left;
+	position:relative;
+	margin:20px 16.5px 10px 54px;
+	max-width:100%;
+}
+
+#port1Text {
+	position:absolute;
+	width:228px;
+	background-color:#63a8a4;
+	color:#fff;
+	text-align: center;
+    font-size: 22px;
+    left: 69px;
+    top: 169px;
+    height: 35px;
+    padding-top: 2px;
+    font-weight:bolder;
+    max-width:100%;
+
+}
+
+#port2 {
+	width:275px;
+	float:left;
+	position:relative;
+	margin:20px 33px 10px 157px;
+	max-width:100%;
+
+
+}
+
+#port2Text {
+	position:absolute;
+	width:229px;
+	background-color:#63a8a4;
+	color:#fff;
+	text-align: center;
+    font-size: 22px;
+    left: 172px;
+    top: 169px;
+    height: 35px;
+    padding-top: 2px;
+    font-weight:bolder;
+    max-width:100%;
+}
+
+
+#port3 {
+	width:275px;
+	float:left;
+	position:relative;
+	margin:20px 16.5px 10px 54px;
+	max-width:100%;
+
+}
+
+#port3Text {
+	position:absolute;
+	width:228px;
+	background-color:#63a8a4;
+	color:#fff;
+	text-align: center;
+    font-size: 22px;
+    left: 69px;
+    top: 169px;
+    height: 35px;
+    padding-top: 2px;
+    font-weight:bolder;
+    max-width:100%;
+  }  
+
+
+#port4 {
+	width:275px;
+	float:left;
+	position:relative;
+	margin:20px 33px 10px 157px;
+	max-width:100%;
+
+}
+
+#port4Text {
+	position:absolute;
+	width:229px;
+	background-color:#63a8a4;
+	color:#fff;
+	text-align: center;
+    font-size: 22px;
+    left: 172px;
+    top: 169px;
+    height: 35px;
+    padding-top: 2px;
+    font-weight:bolder;
+    max-width:100%;
+
+}
+
+
+
+#port5 {
+	width:275px;
+	float:left;
+	position:relative;
+	margin:20px 16.5px 10px 54px;
+	max-width:100%;
+
+}
+
+#port5Text {
+	position:absolute;
+	width:228px;
+	background-color:#63a8a4;
+	color:#fff;
+	text-align: center;
+    font-size: 22px;
+    left: 69px;
+    top: 169px;
+    height: 35px;
+    padding-top: 2px;
+    font-weight:bolder;
+    max-width:100%;
+}	
+
+
+
+
+
+
 
