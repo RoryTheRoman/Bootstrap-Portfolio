@@ -25,8 +25,8 @@ body {
 	border-width:2px;
 	border-color:#dddddd;
 	/*margin-top:30px;*/
-	margin-bottom:300px;
-	float:left;
+	margin:auto auto 30px auto;
+	/*float:left;*/
 	padding-bottom:20px;
 
 	}
@@ -63,11 +63,14 @@ body {
 	float:left;
 	color:#63a8a4;
 	/*max-width:270px;*/
-	margin-right:120px;
+	/*margin-right:120px;
 	margin-left:65px;
-	margin-top:30px;
+	margin-top:30px;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
+	/*margin-bottom:800px;*/
+	margin:auto auto 800px auto;
+
 
 }
 #connect{
@@ -75,13 +78,13 @@ body {
 	border-bottom-style:solid;
 	border-bottom-width:2px;
 	border-bottom-color:#f1f1f1;
-	margin-left:28px;
-	margin-right:28px;
+	/*margin-left:28px;
+	margin-right:28px;*/
 	padding: 20px 5px 20px 5px;
 	font-size:22px;
 	font-weight:bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-
+	margin:auto;
 }
 
 .socialMedia{
@@ -150,6 +153,7 @@ h5 {
 	margin-bottom:300px;
 	padding-bottom:30px;
 	/*float:left;*/
+	margin:auto auto 30px auto;
 
 }
 
@@ -192,15 +196,13 @@ input {
 .portMaster {
 	clear:both;
 	max-width:100%;
-	/*width:650px;
-	margin-left:200px;*/
 	background-color:#ffffff;
 	border-style:solid;
 	border-width:2px;
 	border-color:#dddddd;
-	/*margin-top:30px;*/
-	margin-bottom:300px;
-	float:left;
+	margin:auto auto 30px auto;
+	/*float:left;*/
+	padding-bottom:45px;
 
 }
 
@@ -219,36 +221,40 @@ input {
 
 }
 
+
 #port1 {
-	width:275px;
-	float:left;
+	width:100%;
+	max-width:229px;
 	position:relative;
-	margin:20px 16.5px 10px 54px;
-	max-width:100%;
+	/*margin:20px 16.5px 10px 54px;*/
+	margin: 20px 125px 10px 125px;
+	
 }
 
 #port1Text {
 	position:absolute;
-	width:228px;
+	width:100%;
 	background-color:#63a8a4;
 	color:#fff;
 	text-align: center;
     font-size: 22px;
-    left: 69px;
+    left: 140px;
     top: 169px;
     height: 35px;
     padding-top: 2px;
     font-weight:bolder;
-    max-width:100%;
+    max-width:229px;
+    margin:0px;
 
 }
 
 #port2 {
-	width:275px;
-	float:left;
+	width:100%;
+	max-width:229px;
 	position:relative;
-	margin:20px 33px 10px 157px;
-	max-width:100%;
+	/*margin:20px 33px 10px 157px;*/
+	
+	margin: 20px 125px 10px 125px;
 
 
 }
@@ -260,32 +266,33 @@ input {
 	color:#fff;
 	text-align: center;
     font-size: 22px;
-    left: 172px;
+    left: 140px;
     top: 169px;
     height: 35px;
     padding-top: 2px;
     font-weight:bolder;
     max-width:100%;
+    margin:0px;
 }
 
 
 #port3 {
-	width:275px;
-	float:left;
+	width:100%;
+	max-width:229px;
 	position:relative;
-	margin:20px 16.5px 10px 54px;
-	max-width:100%;
-
+	/*margin:20px 16.5px 10px 54px;*/
+	
+	margin: 20px 125px 10px 125px;
 }
 
 #port3Text {
 	position:absolute;
-	width:228px;
+	width:229px;
 	background-color:#63a8a4;
 	color:#fff;
 	text-align: center;
     font-size: 22px;
-    left: 69px;
+    left: 140px;
     top: 169px;
     height: 35px;
     padding-top: 2px;
@@ -295,12 +302,12 @@ input {
 
 
 #port4 {
-	width:275px;
-	float:left;
+	width:100%;
+	max-width:229px;
 	position:relative;
-	margin:20px 33px 10px 157px;
-	max-width:100%;
-
+	/*margin:20px 33px 10px 157px;*/
+	
+	margin: 20px 125px 10px 125px;
 }
 
 #port4Text {
@@ -310,7 +317,7 @@ input {
 	color:#fff;
 	text-align: center;
     font-size: 22px;
-    left: 172px;
+    left: 140px;
     top: 169px;
     height: 35px;
     padding-top: 2px;
@@ -322,22 +329,23 @@ input {
 
 
 #port5 {
-	width:275px;
-	float:left;
+	width:100%;
+	max-width:229px;
 	position:relative;
-	margin:20px 16.5px 10px 54px;
-	max-width:100%;
+	/*margin:20px 16.5px 10px 54px;*/
+	
+	margin: 20px 125px 10px 125px;
 
 }
 
 #port5Text {
 	position:absolute;
-	width:228px;
+	width:229px;
 	background-color:#63a8a4;
 	color:#fff;
 	text-align: center;
     font-size: 22px;
-    left: 69px;
+    left: 140px;
     top: 169px;
     height: 35px;
     padding-top: 2px;
@@ -346,8 +354,19 @@ input {
 }	
 
 
+/*.col-sm-12 .col-xs-12 .contPort1 .contPort2 .contPort3 .contPort4 .contPort5 {
+	margin-top:20px;
+	margin-bottom:10px;
+	float: none;
+	align-content: center;
+	margin: auto;
 
+}
 
+.col-sm-12. .col-xs-12 #sidebar {
+	margin:5px 5px 300px 5px ! important;
 
+}
+*/
 
 
